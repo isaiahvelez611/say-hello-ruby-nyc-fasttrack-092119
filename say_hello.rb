@@ -4,11 +4,12 @@
 ##def say_hello()
 
 
-def say_hello(name = "Kent Beck")
-  if name == "Kent Beck" 
-      puts "Hello #{name}!"
-  elsif name == 
+def say_hello(name = "mike")
+  if name == "mike"
+      puts "Hello mike!"
+  else
       puts "Hello Ruby Programmer!"
 end
+
 
 
